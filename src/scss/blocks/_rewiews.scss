@@ -1,0 +1,49 @@
+.reviews{
+    padding-bottom: 71px;
+    .title{
+        margin-bottom: 70px;
+    }
+    &__content{
+        position: relative;
+    }
+    &-item{
+        height: 236px;
+        display: flex;
+        position: relative;
+        border-bottom: solid 2px #e8e8e8;
+        margin-bottom: 53px;
+        &:last-child{
+            margin-bottom: 0;
+            border-bottom:none;
+        }
+        &__text {
+            margin-left: 62px;
+            width: 650px;
+            line-height: 1.2;
+        }
+        &__img{
+            width: 169px;
+            height: 169px;
+        }
+        &__name{
+            font-size: 18px;
+            font-weight: 700;
+            text-align: left;
+            color: #0d0d0d;
+            margin-bottom: 10px;
+        }
+        &__expirence{
+            font-size: 14px;
+            font-weight: 300;
+            text-align: left;
+            color: #646464;
+            margin-bottom: 19px;
+        }
+        &__comment{
+            font-size: 16px;
+            font-weight: 300;
+            text-align: left;
+            color: #0d0d0d;
+        }
+    }
+}
